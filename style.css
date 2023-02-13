@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+  
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background-color:rgb(180, 177, 177);
+    color:rgb(83, 79, 79);
+}
+.card{
+    
+    height:460px;
+    width: 280px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(199, 188, 188);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px gray,-5px -5px 5px rgb(238, 234, 234);
+}
+.topsection{
+    display: flex;
+    justify-content: space-between;
+    width:280px ;
+}
+.profile-image{
+   margin-top: 45px;
+   border: 5px solid rgb(204, 203, 203);
+   border-radius:50px;
+   box-shadow: 3px 3px 3px gray,-3px -3px 3px rgb(248, 245, 245);
+}
+.pro-name{
+    margin-top: 20px;
+    font-weight: bold;
+    color: black;
+}
+.pro-detail{
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.social-media{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.social-media i{
+    font-size: 25px;
+    border: 9px solid rgb(199, 188, 188) ;
+    border-radius: 50%;
+    box-shadow:3px 3px 3px gray,-3px -3px 3px rgb(248, 245, 245) ;
+}
+.social-media i:first-child{
+    color: blue;
+   
+   
+}
+.social-media i:last-child{
+    color: rgb(187, 44, 44);
+}
+.social-media i:nth-child(2){
+    color: rgb(113, 113, 231);
+}
+.social-media i:nth-child(3){
+    color: rgb(191, 55, 160);
+}
+
+.button{
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+.button button {
+    color: rgb(70, 67, 67);
+    font-weight: 600;
+    padding: 5px 15px;
+    background-color: rgb(199, 188, 188);
+    border-radius: 10px;
+    border: 9px solid rgb(199, 188, 188) ;
+    box-shadow:3px 3px 3px gray,-3px -3px 3px rgb(248, 245, 245) ;
+}
+.social-icons{
+    display: flex;
+    margin-top: 15px;
+    width: 100%;
+    justify-content: space-around;
+    font-size: small;
+    
+}
+
+
+
